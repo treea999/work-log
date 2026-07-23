@@ -1,0 +1,39 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+.agents/
+.claude/
+.windsurf/
+
+# testing
+/coverage
+artifacts/
+
+# next.js
+/.next/
+/out/
+/build
+/.turbo/
+/dist/
+
+# local and sensitive files
+.DS_Store
+*.pem
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.env*
+!.env.example
+
+# generated and hosting state
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+/src/generated/prisma
